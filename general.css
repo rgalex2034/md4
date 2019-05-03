@@ -100,8 +100,10 @@ header:hover {
 ----------------------------------------------------------------*/
 #searchBoxPreText {
     position: absolute;
-    display: inline;
-    margin: 12px 12px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 12px;
     padding-bottom: 0;
     user-select: none;
 }
