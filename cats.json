@@ -1,0 +1,117 @@
+[
+    {
+        "cols": 3,
+        "cats": {
+            "media": {
+                "mail": "https://login.mailbox.org",
+                "netflix": "https://netflix.com",
+                "youtube": "https://youtube.com/feed/subscriptions",
+                "soundcloud": "https://soundcloud.com/jott_uh_be",
+                "rbtv": "https://rocketbeans.tv/wochenplan/?details=1",
+                "crunchy": "http://crunchyroll.com",
+                "twitch": "https://twitch.tv",
+                "bandcamp": "https://jott-uh-be.bandcamp.com"
+            },
+            "social": {
+                "pr0": "https://pr0gramm.com",
+                "discord": "https://discordapp.com/channels/@me",
+                "telegram": "https://telegram.org/dl/webogram",
+                "deviantart": "https://www.deviantart.com",
+                "stackexchange": "https://stackexchange.com",
+                "stackoverflow": "https://stackoverflow.com",
+                "hb": "http://hanfburg.de",
+                "twitter": "https://twitter.com",
+                "insta": "https://instagram.com"
+            },
+            "reddit": {
+                "shreddit": "https://reddit.com/r/skateboarding/",
+                "unixporn": "https://reddit.com/r/unixporn/",
+                "mech keys": "https://reddit.com/r/MechanicalKeyboards/",
+                "startpages": "https://reddit.com/r/startpages/",
+                "ltd2": "https://reddit.com/r/LegionTD2/",
+                "battlerite": "https://reddit.com/r/BattleRite/",
+                "slay the spire": "https://reddit.com/r/slaythespire/"
+            },
+            "games": {
+                "ltd2": "https://legiontd2.com",
+                "session": "http://crea-turestudios.com/",
+                "destiny2": "https://bungie.net",
+                "battlerite": "https://battlerite.com",
+                "mtg a": "https://mtgdecks.net//Standard",
+                "rl pi": "https://docs.google.com/spreadsheets/d/11yn0crhwmH9zs9sTb6vZyyjxF1sJXWyVeTY49c2lfSM/edit#gid=1575270165",
+                "humble bundle": "https://humblebundle.com",
+                "steam": "https://store.steampowered.com/",
+                "gog": "https://www.gog.com/",
+                "itch": "https://itch.io",
+                "opencritic": "http://opencritic.com/browse?page=0&sort=date&platforms=%5B27%5D&genres=%5B%5D&date=Released"
+            },
+            "shop": {
+                "amazon": "https://www.amazon.de/",
+                "kleinanzeigen": "https://ebay-kleinanzeigen.de",
+                "ebay": "https://www.ebay.de/",
+                "massdrop": "https://www.massdrop.com/",
+                "discogs": "https://www.discogs.com/",
+                "thomann": "https://www.thomann.de/de/index.html?permsel=1"
+            },
+            "banking": {
+                "postbank": "https://banking.postbank.de/rai/login",
+                "postbank-legacy": "https://banking.postbank.de/rai/login?legacy=true",
+                "paypal": "https://paypal.com/signin",
+                "dkb": "https://dkb.de/banking"
+            },
+            "code": {
+                "github": "https://github.com/jubit",
+                "codepen": "https://codepen.io/jub/",
+                "devdocs": "https://devdocs.io/",
+                "w3schools": "https://w3schools.com",
+                "fontawesome": "https://fontawesome.com/"
+            },
+            "work": {
+                "bolde wiki": "https://wiki.bolde.de:444/wordpress/",
+                "kaseya": "https://kaseya.bolde.de",
+                "dashboard": "https://kaseya.bolde.de/Dashboard/DashboardView.aspx?id=1039&mode=view",
+                "an-o": "https://secure10.datev.de/an-online",
+                "3cx customer": "https://customer.3cx.com",
+                "acronis forum": "https://forum.acronis.com/user/login?a",
+                "terra cloud": "https://drive.terracloud.de/folderstable",
+                "wm sns": "https://wortmann.de/de-de/profile/snsearch.aspx",
+                "muc": "https://www.catalog.update.microsoft.com/Home.aspx",
+                "cartridge-space": "https://cartridge-space.de/leergutankauf-toner.html"
+            },
+            "school": {
+                "timetable": "https://poly.webuntis.com/WebUntis/?school=rbz-technik#/basic/main",
+                "moodle": "https://moodle.rbz-technik-kiel.de/moodle/login/index.php",
+                "GitLab": "http://moodle.rbz-technik.de:20010/users/sign_in",
+                "Entschuldigung": "https://www.rbz-technik.de/fileadmin/user_upload/Inhalte/Formulare/EntschuldigungsFormular_BS_2017_07_11F.pdf",
+                "vlsm-calc": "http://vlsm-calc.net",
+                "struktur diagram": "https://de.wikipedia.org/wiki/Nassi-Shneiderman-Diagramm",
+                "netzplantechnik": "https://de.wikipedia.org/wiki/Netzplantechnik"
+            }
+        }
+    },
+    {
+        "cols": 1,
+        "cats": {
+            "misc": {
+                "pi-web": "http://strtpg.ddns.net",
+                "pi-hole": "http://pi.hole/admin/",
+                "pi-coder": "http://coder.local/",
+                "fritz box": "http://fritz.box",
+                "leo": "https://dict.leo.org/englisch-deutsch/",
+                "privnote": "https://privnote.com",
+                "every noise": "http://everynoise.com",
+                "icloud": "https://icloud.com",
+                "!bangs": "https://duckduckgo.com/bang",
+                "color hunt": "http://colorhunt.co",
+                "color hexa": "https://www.colorhexa.com/",
+                "color wheel": "https://color.adobe.com/create/color-wheel/",
+                "qr-gen": "http://qr-code-generator.com",
+                "ipinfo": "https://ipinfo.io/ip",
+                "jap faces": "https://wikileaks.org/ciav7p1/cms/page_17760284.html",
+                "textfaces": "https://textfac.es",
+                "jass tutorial": "https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/",
+                "codeless save load": "https://www.hiveworkshop.com/threads/codeless-save-and-load-multiplayer-v2-0-0.278664/"
+            }
+        }
+    }
+]

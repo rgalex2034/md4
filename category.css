@@ -3,7 +3,7 @@
 /*----------------------------------------------------------------
         Category List Styling
 ----------------------------------------------------------------*/
-#cat_top {
+.cat_block {
     display: flex;
 }
 
@@ -17,6 +17,11 @@
     margin-bottom: 10px;
 }
 
+.cat .links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cat:hover{
     border-top: 2px solid var(--color-selection);
     box-shadow: 0 0 25px 0 var(--color-shadow75);
@@ -24,6 +29,7 @@
 }
 
 .cat_group{
+    flex: 1 1 auto;
     margin: var(--margin-category);
 }
 
