@@ -1,3 +1,9 @@
+This is a **fork** of https://github.com/jubit/md4
+
+The aim of this project is to convert this beautiful home page to a dynamic, manageable one.
+
+## Original readme
+
 # md4
 
 This is my Startpage #4
