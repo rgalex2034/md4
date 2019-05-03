@@ -125,7 +125,6 @@ window.onload = function() {
 function insertLinks() {
     let html = '';
     let numGroup = 0;
-    let numCat = '01';
     for (let i = 0; i < categoryTitle.length; i++) {
         if (i === 0 || i === 3 || i === 6){
             if (i === 0) {
@@ -133,12 +132,9 @@ function insertLinks() {
                 html += '<div id=\'cat_top\'>';
             }
             numGroup++;
-            html += '<div id=\'grp_0' + numGroup + '\' class=\'cat_group\'>';
+            html += '<div class=\'cat_group\'>';
         }
-        if (i > 8) {
-            numCat = '02';
-        }
-        html += '<div class=\'cat_' + numCat + ' cat_' + categoryTitle[i] + '\'>';
+        html += '<div class=\'cat\'>';
         html += '<label class=\'catPreText font_bold\'>';
         html += '<span class=\'' + colors[0] + '\'> ~ </span>';
         html += '<span class=\'' + colors[1] + '\'> ❯ </span>';

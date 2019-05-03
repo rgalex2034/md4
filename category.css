@@ -5,29 +5,19 @@
 ----------------------------------------------------------------*/
 #cat_top {
     display: flex;
-    flex-wrap: wrap;
 }
 
-.cat_01, .cat_02 {
+.cat {
     background: var(--color-main);
     height: auto;
     padding: var(--padding-category);
     border: 2px solid transparent;
     box-shadow: 0 0 20px 0 var(--color-shadow5);
     transition: box-shadow 500ms ease;
-}
-
-.cat_01 {
-    max-width: calc(40ch - (2 * var(--padding-category)));
     margin-bottom: 10px;
 }
 
-.cat_02 {
-    max-width: calc(120ch + 10px);
-    margin-top: 10px;
-}
-
-.cat_01:hover, .cat_02:hover {
+.cat:hover{
     border-top: 2px solid var(--color-selection);
     box-shadow: 0 0 25px 0 var(--color-shadow75);
     transition: border 500ms ease, box-shadow 500ms ease;
