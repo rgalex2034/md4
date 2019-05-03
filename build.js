@@ -158,11 +158,4 @@ function insertLinks() {
         }
     }
     document.getElementById('content').innerHTML = html;
-    let heightCatTop = 0;
-    for (let i = 1; i <= numGroup; i++) {
-        let heightCatGrp = document.getElementById('grp_0' + i).offsetHeight;
-        if (heightCatGrp > heightCatTop)
-            heightCatTop = heightCatGrp;
-    }
-    document.getElementById('cat_top').style.height = (heightCatTop + 10) + 'px';
 }

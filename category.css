@@ -3,6 +3,11 @@
 /*----------------------------------------------------------------
         Category List Styling
 ----------------------------------------------------------------*/
+#cat_top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cat_01, .cat_02 {
     background: var(--color-main);
     height: auto;
@@ -14,10 +19,7 @@
 
 .cat_01 {
     max-width: calc(40ch - (2 * var(--padding-category)));
-}
-
-.cat_01:not(:first-child) {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .cat_02 {
@@ -32,7 +34,6 @@
 }
 
 .cat_group{
-    float: left;
     margin: var(--margin-category);
 }
 
