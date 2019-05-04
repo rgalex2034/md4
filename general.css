@@ -135,3 +135,54 @@ header:hover {
     opacity: 0;
     transition: opacity .3s ease-in;
 }
+
+.options {
+    color: #656565;
+    display: flex;
+}
+
+.options > * {
+    margin: 15px 10px;
+    background: var(--color-main);
+    padding: 7px 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.options > *:hover {
+    transition: border-top .5s ease, color .5s ease;
+    color: var(--color-text-content);
+    border-top: 2px solid var(--color-selection);
+}
+
+.fixed {
+    position: fixed;
+}
+
+.right {
+    right: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.edit {
+    display: none;
+    padding: 10px;
+    margin: 5px;
+    border: 2px dashed;
+    cursor: pointer;
+}
+
+.edit:hover {
+    color: white;
+}
+
+input {
+    background: var(--color-main);
+    border: none;
+    color: var(--color-text-content);
+    padding: 8px;
+    box-shadow: 0px 0px 20px 0px var(--color-shadow5);
+}

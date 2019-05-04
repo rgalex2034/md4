@@ -16,6 +16,10 @@
         <!-- End websites includes -->
     </head>
     <body>
+        <div class="options fixed top right">
+            <button id="edit-button" type="button">Edit</button>
+            <button type="button">Bookmark</button>
+        </div>
         <div class='spacer_top'></div>
         <header>
             <div id='searchSpace'>
@@ -31,7 +35,37 @@
             </div>
         </header>
         <div id='content'>
+            <div class="blocks">
+
+            </div>
+            <div class="edit">
+                <div class="options">
+                    <button>Add block</button>
+                </div>
+            </div>
         </div>
+
+        <template id="temp_block">
+            <div>
+                <div class="edit">
+                    <span class="options">
+                        <span>Columns: <input type="number" min="1" /></span>
+                        <button>Add category</button>
+                    </span>
+                </div>
+                <div class="cat_block">
+
+                </div>
+            </div>
+        </template>
+
+        <template id="temp_group">
+            <div>
+                <div class="cat_group">
+
+                </div>
+            </div>
+        </template>
 
         <template id="temp_cat">
             <div class="cat">

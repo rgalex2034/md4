@@ -33,11 +33,11 @@
     margin: var(--margin-category);
 }
 
-.cat_group:first-child {
+.cat_block > :first-child .cat_group {
     margin-left: 0;
 }
 
-.cat_group:last-child {
+.cat_block > :last-child .cat_group {
     margin-right: 0;
 }
 
