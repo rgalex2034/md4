@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function(){
             //Create category blocks
             var block = blocks[i];
             var block_div = create_div("cat_block");
-            content_div.appendChild(block_div);
 
             //Create columns
             var col_divs = [];
@@ -38,7 +37,10 @@ document.addEventListener("DOMContentLoaded", function(){
                 col_divs[col%block.cols].appendChild(cat_div);
                 col++;
             }
+            content_div.appendChild(block_div);
         }
+
+        content_div.style.opacity = 1;
     });
 });
 

@@ -130,3 +130,8 @@ header:hover {
     border: 2px solid var(--color-selection);
     transition: color 300ms, border 300ms, box-shadow 500ms, border-radius 300ms;
 }
+
+#content {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
