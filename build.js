@@ -115,7 +115,7 @@ function copy_template(id){
 }
 
 var Cookie = {
-    read: function(name = null){
+    read: function(key = null){
         var data = {};
         var cookies = document.cookie;
         cookie_list = cookies.split("; ");
@@ -123,7 +123,7 @@ var Cookie = {
             var pair = cookie.split("=");
             data[pair[0]] = pair[1];
         });
-        return name ? data[name] : data;
+        return key ? data[name] : data;
     },
     write: function(key, data, expiration = null){
         var cookie = key + "=" + data;
