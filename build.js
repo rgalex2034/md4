@@ -92,6 +92,7 @@ Categories.prototype.build = function(){
         blocks_div.appendChild(block_div);
     }
 
+    this.toggleEdit(this.edition);
     content_div.style.opacity = 1;
 };
 
