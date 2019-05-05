@@ -9,19 +9,15 @@ document.addEventListener("DOMContentLoaded", function(){
     }).then(function(blocks){
         categories = new Categories(blocks);
         categories.build();
-    });
 
-    //Toggle edition blocks
-    document.getElementById("edit-button").addEventListener("click", function(){
-        var edit_elements = document.getElementsByClassName("edit");
-        for(element of edit_elements){
-            element.style.display = element.style.display == "block" ? "none" : "block";
-        }
+        //Toggle edition blocks
+        document.getElementById("edit-button").addEventListener("click", () => categories.toggleEdit());
     });
 });
 
 function Categories(blocks){
     this.blocks = blocks instanceof Array ? blocks : [];
+    this.edition = false;
 }
 
 Categories.prototype.addBlock = function(columns = 1, categories = {}){
@@ -41,6 +37,16 @@ Categories.prototype.addCategory = function(block_num, name, links = {}){
 
 Categories.prototype.setLink = function(block_num, cat_name, link_name, link){
     this.blocks[block_num].cats[cat_name][link_name] = link;
+};
+
+Categories.prototype.toggleEdit = function(active = null){
+    var active = active != null ? active : !this.edition;
+    var edit_elements = document.getElementsByClassName("edit");
+    for(element of edit_elements){
+        element.style.display = active ? "block" : "none";
+    }
+    this.edition = active;
+    console.log(this.edition);
 };
 
 Categories.prototype.build = function(){
